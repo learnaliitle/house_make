@@ -16,7 +16,29 @@
     </description>
 
     <dependencies>
-
+ <!-- 集成mybatis-plus -->
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-core</artifactId>
+</dependency>
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-core</artifactId>
+   <version>3.5.1</version>
+</dependency>
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-extension</artifactId>
+   <version>3.5.1</version>
+</dependency>
+<dependency>
+   <groupId>com.ruoyi</groupId>
+   <artifactId>ruoyi-system</artifactId>
+</dependency>
+<dependency>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+</dependency>
 
         <!-- 定时任务 -->
         <dependency>

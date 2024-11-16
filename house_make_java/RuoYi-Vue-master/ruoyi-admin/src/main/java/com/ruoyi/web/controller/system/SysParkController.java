@@ -60,6 +60,15 @@ public class SysParkController extends BaseController {
         return iSysParkService.save(sysPark) ? success() : error();
     }
 
+    /**
+     * 删除创业园
+     */
+    @DeleteMapping("/delete/{id}")
+    @ApiOperation("删除创业园")
+    public AjaxResult remove(@PathVariable Integer id) {
+        return iSysParkService.removeById(id) ? success() : error();
+    }
+
 
 
 }

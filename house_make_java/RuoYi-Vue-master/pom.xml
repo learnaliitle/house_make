@@ -40,29 +40,37 @@
     <!-- 依赖声明 -->
     <dependencyManagement>
         <dependencies>
+<!-- 集成mybatis plus -->
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-boot-starter</artifactId>
+   <version>3.5.1</version>
+</dependency>
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-core</artifactId>
+   <version>3.5.1</version>
+</dependency>
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus</artifactId>
+   <version>3.5.1</version>
+</dependency>
+<dependency>
+   <groupId>com.baomidou</groupId>
+   <artifactId>mybatis-plus-annotation</artifactId>
+   <version>3.5.1</version>
+</dependency>
 
-            <!-- 集成mybatis plus -->
+         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+        </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>3.5.1</version>
             </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-core</artifactId>
-                <version>3.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus</artifactId>
-                <version>3.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-annotation</artifactId>
-                <version>3.5.1</version>
-            </dependency>
-
 
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
